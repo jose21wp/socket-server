@@ -1,0 +1,51 @@
+.ancho_header {
+    width: 100%;
+}
+
+.ancho_titulo {
+    width: 75%;
+    float: left;
+}
+
+.ancho_subtitulo {
+    float: right;
+    width: 25%;
+}
+
+.ancho_ico {
+    width: 50px;
+}
+
+.ancho_ico_label {
+    width: 20%;
+}
+
+.tamano_vaca {
+    text-indent: 5px;
+    font-size: 300%;
+    background: #4360C3;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+.tamano_dias {
+    text-indent: 5px;
+    font-size: 300%;
+    background: #82E0AA;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}

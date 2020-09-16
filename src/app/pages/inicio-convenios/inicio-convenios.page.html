@@ -1,0 +1,66 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>inicio_convenios</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <body>
+        <ion-app>
+            <ion-menu side="start" content-id="main-content">
+                <ion-header>
+                    <ion-toolbar color="primary">
+                        <ion-title>Menu de Bienestar Social</ion-title>
+                    </ion-toolbar>
+                </ion-header>
+                <ion-content>
+                    <div>
+                        <!--CONVENIOS-->
+                        <ion-menu-toggle>
+                            <ion-item routerLinkActive="active">
+                                <ion-icon name="ribbon-outline" slot="start"></ion-icon>
+                                <ion-label>Beneficios</ion-label>
+                            </ion-item>
+                        </ion-menu-toggle>
+
+                        <ion-menu-toggle>
+                            <ion-item class="sub_item" routerLink="/convenio-gas" routerLinkActive="active">
+                                <ion-icon name="gift-outline" slot="start"></ion-icon>
+                                <ion-label>Convenio Gas</ion-label>
+                            </ion-item>
+                            <ion-item class="sub_item" routerLinkActive="active">
+                                <ion-icon name="gift-outline" slot="start"></ion-icon>
+                                <ion-label>Convenio VTR</ion-label>
+                            </ion-item>
+                            <ion-item class="sub_item" routerLinkActive="active">
+                                <ion-icon name="gift-outline" slot="start"></ion-icon>
+                                <ion-label>Convenio ENTEL</ion-label>
+                            </ion-item>
+                        </ion-menu-toggle>
+                        <!--RECREACIONAL-->
+                        <ion-menu-toggle>
+
+                            <ion-item routerLinkActive="active">
+                                <ion-icon name="bed-outline" slot="start"></ion-icon>
+                                <ion-label>Recreacional</ion-label>
+                            </ion-item>
+                        </ion-menu-toggle>
+
+                    </div>
+                </ion-content>
+            </ion-menu>
+
+            <div class="ion-page" id="main-content">
+                <ion-header>
+                    <ion-toolbar>
+                        <ion-buttons slot="start">
+                            <ion-menu-button></ion-menu-button>
+                        </ion-buttons>
+                        <ion-title>Bienestar Social</ion-title>
+                    </ion-toolbar>
+                </ion-header>
+            </div>
+        </ion-app>
+    </body>
+</ion-content>

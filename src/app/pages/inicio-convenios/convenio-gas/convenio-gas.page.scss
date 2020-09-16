@@ -1,0 +1,112 @@
+ion-slides {
+    height: 50%;
+}
+
+.swiper-slide {
+    display: block;
+}
+
+.swiper-slide h2 {
+    margin-top: 2.8rem;
+}
+
+.swiper-slide img {
+    max-height: 50%;
+    max-width: 80%;
+    margin: 60px 0 40px;
+    pointer-events: none;
+}
+
+b {
+    font-weight: 500;
+}
+
+p {
+    padding: 0 40px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--ion-color-step-600, #60646b);
+}
+
+p b {
+    color: var(--ion-text-color, #000000);
+}
+
+.posicion_add {
+    position: absolute;
+    top: 65%;
+    left: 20%;
+}
+
+.posicion_add_2 {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+}
+
+.posicion_remove {
+    position: absolute;
+    top: 65%;
+    left: 62%;
+}
+
+.posicion_cant {
+    position: absolute;
+    top: 65%;
+    left: 39%;
+    border: #0D37C2 2px solid;
+    width: 80px;
+}
+
+.posicion_img {
+    position: absolute;
+    top: 15%;
+    left: 39%;
+    width: 80px;
+}
+
+.posicion_img_2 {
+    position: absolute;
+    top: 15%;
+    left: 39%;
+    width: 80px;
+    height: 150px;
+}
+
+.posicion_total {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+}
+
+.posicion_total_2 {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+}
+
+.posicion_precio {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.posicion_cant_2 {
+    position: absolute;
+    top: 80%;
+    left: 39%;
+    border: #0D37C2 2px solid;
+    width: 80px;
+}
+
+.posicion_remove_2 {
+    position: absolute;
+    top: 80%;
+    left: 62%;
+}
+
+.boton {
+    position: absolute;
+    top: 70%;
+    width: 100%;
+}

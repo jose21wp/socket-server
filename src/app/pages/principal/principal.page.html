@@ -1,0 +1,94 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>principal</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <!--ESTADO DE SOLICITUD-->
+    <ion-card>
+        <ion-card-header class="ancho_header">
+            <ion-card-title class="ancho_titulo">
+                <ion-icon class="ancho_ico" color="primary" name="pencil-outline"></ion-icon>Estado de Solicitudes</ion-card-title>
+            <a class="ancho_subtitulo" routerLink="/home">ver todo</a>
+        </ion-card-header>
+        <hr>
+        <ion-card-content>
+            <ion-item>
+                <ion-label>Permiso 228</ion-label>
+                <ion-label color="danger">
+                    <ion-icon class="ancho_ico_label" name="ellipse"></ion-icon>Rechazado
+                </ion-label>
+                <ion-button fill="outline" slot="end">
+                    <ion-icon name="eye-outline"></ion-icon>Ver</ion-button>
+            </ion-item>
+            <ion-item>
+                <ion-label>Per. Vacaciones</ion-label>
+                <ion-label color="warning">
+                    <ion-icon class="ancho_ico_label" name="ellipse"></ion-icon>Pendiente
+                </ion-label>
+                <ion-button fill="outline" slot="end">
+                    <ion-icon name="eye-outline"></ion-icon>Ver</ion-button>
+            </ion-item>
+            <ion-item>
+                <ion-label>Permiso 228</ion-label>
+                <ion-label color="success">
+                    <ion-icon class="ancho_ico_label" name="ellipse"></ion-icon>Aceptado
+                </ion-label>
+                <ion-button fill="outline" slot="end">
+                    <ion-icon name="eye-outline"></ion-icon>Ver</ion-button>
+            </ion-item>
+        </ion-card-content>
+    </ion-card>
+    <!--LIQUIDACION DE SUELDO-->
+    <ion-card>
+        <ion-card-header class="ancho_header">
+            <ion-card-title class="ancho_titulo">
+                <ion-icon class="ancho_ico" color="primary" name="document-text"></ion-icon>Liquidaciones de Sueldo</ion-card-title>
+            <a class="ancho_subtitulo" routerLink="/home">ver todo</a>
+        </ion-card-header>
+        <hr>
+        <ion-card-content>
+            <ion-item>
+                <ion-label>Junio 2020</ion-label>
+
+                <ion-button fill="outline" slot="end">
+                    <ion-icon name="download"></ion-icon>Descargar</ion-button>
+            </ion-item>
+            <ion-item>
+                <ion-label>Mayo 2020</ion-label>
+                <ion-button fill="outline" slot="end">
+                    <ion-icon name="download"></ion-icon>Descargar</ion-button>
+            </ion-item>
+            <ion-item>
+                <ion-label>Abril 2020</ion-label>
+                <ion-button fill="outline" slot="end">
+                    <ion-icon name="download"></ion-icon>Descargar</ion-button>
+            </ion-item>
+        </ion-card-content>
+    </ion-card>
+    <!--DIAS ADMINISTRATIVOS-->
+    <ion-card>
+        <ion-card-header class="ancho_header">
+            <ion-card-title class="ancho_titulo">
+                <ion-icon class="ancho_ico" color="primary" name="calendar"></ion-icon>Dias Administrativos</ion-card-title>
+            <a class="ancho_subtitulo" routerLink="/home">ver detalle</a>
+        </ion-card-header>
+        <hr>
+        <ion-card-content>
+            <ion-item>
+                <ion-label class="tamano_vaca">4</ion-label>
+                <ion-label>Total Dias</ion-label>
+            </ion-item>
+            <ion-item>
+                <ion-label class="tamano_vaca">6</ion-label>
+                <ion-label>Dias Solicitados</ion-label>
+            </ion-item>
+            <ion-item>
+                <ion-label class="tamano_dias">2</ion-label>
+                <ion-label>Dias Restantes</ion-label>
+            </ion-item>
+        </ion-card-content>
+    </ion-card>
+
+</ion-content>

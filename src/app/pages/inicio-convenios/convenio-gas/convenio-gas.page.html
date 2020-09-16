@@ -1,0 +1,143 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>convenio_gas</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-slides>
+        <!--CILINDRO DE 5-->
+        <ion-slide>
+            <h2>Cilindo 5 kilos</h2>
+            <h4 class="posicion_precio">$8.990</h4>
+            <br>
+            <img class="posicion_img" src="assets/img/abastible_5.png" />
+            <div class="posicion_add">
+                <ion-fab>
+                    <ion-fab-button (click)="cantidad_mas_5()">
+                        <ion-icon name="add"></ion-icon>
+                    </ion-fab-button>
+                </ion-fab>
+            </div>
+            <div class="posicion_cant">
+                <ion-grid>
+                    <ion-row>
+                        <ion-col class="ion-align-self-center">
+                            {{gas[0].cantidad}}
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
+            </div>
+            <div class="posicion_remove">
+                <ion-fab>
+                    <ion-fab-button (click)="cantidad_menos_5()">
+                        <ion-icon name="remove-outline"></ion-icon>
+                    </ion-fab-button>
+                </ion-fab>
+            </div>
+
+
+        </ion-slide>
+        <!--CILINDO DE 5-->
+        <ion-slide>
+            <h2>Cilindo 11 kilos</h2>
+            <h4 class="posicion_precio">$11.990</h4>
+            <br>
+            <img class="posicion_img" src="assets/img/abastible_11.png" />
+            <div class="posicion_add">
+                <ion-fab>
+                    <ion-fab-button (click)="cantidad_mas_11()">
+                        <ion-icon name="add"></ion-icon>
+                    </ion-fab-button>
+                </ion-fab>
+            </div>
+            <div class="posicion_cant">
+                <ion-grid>
+                    <ion-row>
+                        <ion-col class="ion-align-self-center">
+                            {{gas[1].cantidad}}
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
+            </div>
+            <div class="posicion_remove">
+                <ion-fab>
+                    <ion-fab-button (click)="cantidad_menos_11()">
+                        <ion-icon name="remove-outline"></ion-icon>
+                    </ion-fab-button>
+                </ion-fab>
+            </div>
+
+
+        </ion-slide>
+        <!--CILINDO DE 5-->
+        <ion-slide>
+            <h2>Cilindo 15 kilos</h2>
+            <h4 class="posicion_precio">$16.990</h4>
+            <br>
+            <img class="posicion_img" src="assets/img/abastible_15.png" />
+            <div class="posicion_add">
+                <ion-fab>
+                    <ion-fab-button (click)="cantidad_mas_15()">
+                        <ion-icon name="add"></ion-icon>
+                    </ion-fab-button>
+                </ion-fab>
+            </div>
+            <div class="posicion_cant">
+                <ion-grid>
+                    <ion-row>
+                        <ion-col class="ion-align-self-center">
+                            {{gas[2].cantidad}}
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
+            </div>
+            <div class="posicion_remove">
+                <ion-fab>
+                    <ion-fab-button (click)="cantidad_menos_15()">
+                        <ion-icon name="remove-outline"></ion-icon>
+                    </ion-fab-button>
+                </ion-fab>
+            </div>
+
+
+        </ion-slide>
+        <!--CILINDO DE 5-->
+        <ion-slide>
+            <h2>Cilindo 45 kilos</h2>
+            <h4 class="posicion_precio">$39.990</h4>
+            <br>
+            <img class="posicion_img_2" src="assets/img/abastible_45.png" />
+            <div class="posicion_add_2">
+                <ion-fab>
+                    <ion-fab-button (click)="cantidad_mas_45()">
+                        <ion-icon name="add"></ion-icon>
+                    </ion-fab-button>
+                </ion-fab>
+            </div>
+            <div class="posicion_cant_2">
+                <ion-grid>
+                    <ion-row>
+                        <ion-col class="ion-align-self-center">
+                            {{gas[3].cantidad}}
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
+            </div>
+            <div class="posicion_remove_2">
+                <ion-fab>
+                    <ion-fab-button (click)="cantidad_menos_45()">
+                        <ion-icon name="remove-outline"></ion-icon>
+                    </ion-fab-button>
+                </ion-fab>
+            </div>
+
+        </ion-slide>
+    </ion-slides>
+
+    <h1 class="posicion_total">Total :{{total_total | currency:'CLP':'$'}}</h1>
+    <h2 class="posicion_total_2">Total Cilindros: {{cantidad}}</h2>
+    <hr>
+    <ion-button class="boton" expand="full">Adjuntar Boleta</ion-button>
+
+</ion-content>
